@@ -34,7 +34,7 @@ For the original instructions for each historical version, extract that version'
 
 This project was developed with AI assistance under the project owner's direction. It is not a fork of Internet Download Manager or Mister Download Manager, and neither project's proprietary or project-specific source code is included. It uses standard Python modules and third-party packages listed in [Third-Party Dependencies](THIRD_PARTY.md). Those dependencies have their own terms.
 
-**License decision pending.** This repository intentionally does **not** claim an open-source license until the owner chooses one. Public visibility alone does not grant permission for reuse. See [LICENSE_STATUS.md](LICENSE_STATUS.md). If you want community contributions, decide the license before inviting substantial code submissions.
+**Free to use, restricted modification and redistribution.** You may download, install, and run unmodified copies of Lilith for free. Modifying or redistributing the covered code requires prior written permission from the owner, subject to GitHub's platform rights and applicable law. This is **source-available, not an OSI-approved open-source project**. Read the [LICENSE](LICENSE) and [license explanation](LICENSE_STATUS.md). Third-party components retain their own licenses.
 
 ## Feedback
 
