@@ -1,0 +1,55 @@
+LILITH DOWNLOAD DESK v1.3.2 | NO MANUAL FFMPEG SETUP
+
+This is a small repair to v1.3.1. The anime UI redesign is NOT included.
+
+01. CLOSE THE OLD APP
+  In the taskbar notification area, right-click Lilith and click Quit.
+  The X button only hides the app; it does not quit.
+
+02. EXTRACT THIS ZIP TO A NEW FOLDER
+  Example: Documents\LilithDownloadDesk_v1_3_2
+  Do not delete your working v1.3.1 folder until v1.3.2 is verified.
+
+03. DOUBLE-CLICK Install_and_Launch.bat
+  Requires internet for the first setup and Python 3.11+.
+  Setup installs yt-dlp, Pillow, pystray, and imageio-ffmpeg from PyPI.
+  The latter provides an FFmpeg executable for your Windows architecture.
+  Setup copies that executable to your private application data:
+  %LOCALAPPDATA%\LilithDownloadDesk\tools\ffmpeg.exe
+  No separate FFmpeg download, PATH editing, or administrator rights.
+  The first setup may download approximately 40 MB (depending on wheel version).
+
+04. USE LILITH AS USUAL
+  Open Video Tools: Media engine should show READY.
+  Future launches use Launch.bat or your existing shortcut if it points to
+  this v1.3.2 folder. Your download queue and browser pairing settings remain.
+  The Chrome/Edge extension is unchanged from v1.3.1.
+
+05. RETRY A VIDEO
+  A modern video site may deliver high-quality video and audio in separate
+  streams. Lilith's managed FFmpeg joins them into one output file.
+  Use Video Tools > Merge existing video + audio into MP4 for old split files.
+
+06. IF SOMETHING FAILS
+  Open Video Tools > Check / repair media engine.
+  If the package itself is missing, close Lilith and re-run
+  Install_and_Launch.bat. See View log for technical details.
+
+IMPORTANT
+* FFmpeg technology still does the merging. We removed MANUAL setup, not
+  the actual processing library. You do not need a system-wide installation.
+* Imageio-FFmpeg on Windows provides ffmpeg but usually not ffprobe. Lilith
+  checks the final audio+video streams using FFmpeg if ffprobe is absent.
+* DRM-protected video remains unsupported. Some sites block downloads.
+* We tested media setup and merging in a Linux environment, not on your
+  specific Windows machine. Please test v1.3.2 before replacing v1.3.1.
+* This is the latest technical hotfix, not the Lilith v2 animated UI redesign.
+* Source: https://github.com/imageio/imageio-ffmpeg ; https://github.com/yt-dlp/yt-dlp
+
+LAUNCHERS, IN ORDER
+01_Install_and_Launch.bat  First install or re-install/update, then starts app.
+02_Launch_Lilith.bat       Daily app launch after setup; no installer run.
+03_Check_Media_Engine.bat Only if video merging reports a media issue.
+
+Original Install_and_Launch.bat / Launch.bat remain included for
+compatibility with existing shortcuts and scripts.

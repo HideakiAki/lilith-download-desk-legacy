@@ -1,0 +1,40 @@
+LILITH DOWNLOAD DESK v2.0 - DESIGN-FIRST BLUEPRINT
+
+The suggested direction is NOT to spend weeks building animation while the media
+engine still has bugs. Keep v1.3.1 as a stable legacy build; define the UI
+and animation states first, prototype them independently, then migrate.
+
+PROPOSED DESKTOP LAYOUT
+Top: App identity, URL box, Add, search/filter, queue controls.
+Left sidebar: All downloads, Active, Finished, Failed, Videos, Files, Settings.
+Center: Expandable list, each row shows name, size, percentage, rate, ETA.
+Right optional inspector: Details, Preview/Formats, Resume, destination, errors.
+Bottom: slim log bar and status; only expands when the user needs diagnostics.
+
+PROPOSED SEPARATE DOWNLOAD WINDOW
+Large readable filename with icon; destination with Open File / Show in Folder;
+progress bar with %; two-line speed, size, and ETA; Pause/Resume/Cancel.
+Mascot is integrated as an unobtrusive character over/along the progress bar.
+
+ANIMATION STATES (original sprite artwork required)
+Idle: subtle breathing and blinking.
+Downloading: animated Lilith runs beside the current percentage point.
+Paused: Lilith sits / waits.
+Completed: short bow and smile (one-shot), then quiet idle.
+Error: X.X eyes and a brief stumble; do not endlessly loop a distressed pose.
+Retrying: focused expression and a small loading glow.
+Reduced-motion option: freeze character on a corresponding key frame.
+
+RECOMMENDED IMPLEMENTATION
+Use a modern Qt/PySide6 interface for flexible scalable layouts, system tray,
+keyboard navigation, native menus, sprite animation, and high-DPI support.
+Reuse the existing download queue, transfer engine, and Chrome extension.
+Preview at 100%, 125%, 150%, and 175% Windows scaling before shipping.
+Test animation performance with a large queue and minimize-to-tray.
+
+DESIGN CHECKPOINTS
+1. Approve a static polished interface mockup/layout.
+2. Approve original Lilith character art turnaround and sprite states.
+3. Build and test isolated animated download widget.
+4. Integrate with the existing tested download engine.
+5. Package standalone Windows executable with signed installer if feasible.

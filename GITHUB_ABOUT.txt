@@ -1,0 +1,4 @@
+Suggested repository name: lilith-download-desk-legacy
+Suggested description: Archived Python prototypes of Lilith Download Desk (v1.0–v1.3.2), including a Chrome/Edge companion extension. Experimental and unmaintained.
+Suggested topics: python, downloader, download-manager, windows, tkinter, browser-extension, archive, prototype, ai-assisted
+Suggested status: Historical archive / not the v2.0 rebuild

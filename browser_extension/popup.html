@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Lilith Downloader</title>
+<style>
+body{font:13px 'Segoe UI',Arial,sans-serif;width:320px;margin:0;padding:17px;background:#1a1226;color:#f3e7ff}
+h1{font-size:20px;margin:0;color:#efc7ff}p{margin:7px 0 15px;color:#cbb8d9;line-height:1.4}
+label{display:block;margin-top:11px;font-size:12px;color:#d8c4e7}
+input,select{box-sizing:border-box;width:100%;margin-top:5px;padding:9px;border:1px solid #573c77;border-radius:9px;background:#271d36;color:white}
+button{width:100%;margin-top:9px;padding:10px;border:0;border-radius:10px;background:#8c58ce;color:white;cursor:pointer;font-weight:600}
+button.secondary{background:#342443;border:1px solid #694a8e;font-weight:400}
+#status{min-height:30px;color:#d8c4e7;margin-top:9px;font-size:12px;line-height:1.35}
+small{color:#ae97bf}
+</style></head><body>
+<h1>✦ Lilith Download Desk ♡</h1>
+<p>Ready to catch that video, Master?</p>
+<label for="pair">Pairing key (copy it from the desktop app)</label>
+<input id="pair" type="password" placeholder="Paste key from Lilith" autocomplete="off">
+<button class="secondary" id="save">Save pairing key</button>
+<label for="mode">Download type</label>
+<select id="mode"><option>Video page</option><option>Auto detect</option><option>Direct file</option></select>
+<label style="display:flex;align-items:center;gap:10px;margin-top:12px;color:#f1dafa">
+  <input type="checkbox" id="autoCapture" style="width:auto;margin:0;accent-color:#a57de8">
+  Automatically catch Chrome file downloads (IDM-style)
+</label>
+<small>Off by default. Chrome resumes downloads Lilith cannot access. No DRM bypass or password/cookie extraction.</small>
+<button id="send">Download current tab</button>
+<button class="secondary" id="inspect">Choose available video quality…</button>
+<div id="status">The desktop app must be running in the tray.</div><div id="captureStatus" style="margin-top:8px;font-size:11px;color:#cbb8d9"></div>
+<small>Floating video buttons only appear over detectable HTML5 videos. Protected streams are not supported.</small>
+<script src="popup.js"></script>
+</body></html>
