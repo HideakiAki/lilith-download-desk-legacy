@@ -7,8 +7,6 @@
 <p align="center">
   Historical archive of Lilith Download Desk prototypes, from v1.0 to v1.3.2.
 </p>
-# Lilith Download Desk | Legacy Releases
-
 > **Historical archive, not the upcoming v2.0 project.**
 
 Lilith Download Desk is an experimental, AI-assisted Windows downloader with a Python desktop application and a Chrome/Edge-compatible browser extension. This repository preserves the original prototype releases **v1.0 through v1.3.2**, including their rough edges. The software is not presented as a polished IDM replacement.
