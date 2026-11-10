@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="./Lilith_Download_Desk_Animated_Concept.gif" alt="Lilith Download Desk Legacy Banner" width="100%">
+</p>
+
+<h1 align="center">Lilith Download Desk Legacy</h1>
+
+<p align="center">
+  Historical archive of Lilith Download Desk prototypes, from v1.0 to v1.3.2.
+</p>
 # Lilith Download Desk | Legacy Releases
 
 > **Historical archive, not the upcoming v2.0 project.**
