@@ -1,0 +1,72 @@
+LILITH DOWNLOAD DESK LEGACY
+FREE-TO-USE, RESTRICTED MODIFICATION AND REDISTRIBUTION LICENSE
+Version 1.0 — November 10, 2026
+
+Copyright (c) 2026 HideakiAki.
+All rights reserved except for the limited permissions expressly granted below,
+and only to the extent the rights are legally held by the copyright owner.
+
+1. COVERED MATERIAL
+
+This license covers original Lilith Download Desk Legacy source code and
+original project assets in this repository, including the historical
+v1.0–v1.3.2 releases, only to the extent that HideakiAki owns or is otherwise
+authorized to license those materials.
+
+Third-party packages, libraries, executables, and third-party assets are
+NOT relicensed by these terms. Their respective licenses and legal rights
+remain in effect. See THIRD_PARTY.md.
+
+2. WHAT YOU MAY DO WITHOUT ASKING
+
+You may, free of charge:
+- View and inspect the covered source code.
+- Download, install, and run unmodified copies of Lilith Download Desk for
+  personal, educational, or internal business use.
+- Make copies reasonably necessary to install, run, or back up your own
+  unmodified installation.
+- Share links to the official repository rather than reuploading the files.
+
+Using Lilith's normal settings and using files downloaded with the program
+does not count as modifying Lilith's source code.
+
+3. WHAT REQUIRES PRIOR WRITTEN PERMISSION
+
+Unless HideakiAki expressly authorizes it in writing, you may NOT:
+- Modify, adapt, translate, or create derivative versions of the covered
+  source code or original project assets.
+- Publish, upload, mirror, bundle, redistribute, or otherwise supply
+  copies of the covered software, in original or modified form, to others.
+- Sell, sublicense, or incorporate the covered software into a product,
+  service, or software distribution provided to others.
+
+Permission for one action does not imply permission for other actions.
+To request permission, contact the repository owner through their
+official GitHub profile or repository communication channels.
+
+4. GITHUB PLATFORM RIGHTS
+
+If this repository is public, GitHub's Terms of Service allow users to view
+and fork it through GitHub's features. Nothing in this license attempts
+to revoke rights granted by GitHub's Terms of Service or by applicable law.
+GitHub platform permissions do not by themselves grant broader rights to
+modify or redistribute the covered software outside those permissions.
+
+5. NO TRANSFER OF OWNERSHIP
+
+No ownership, trademark, or other rights are transferred by this license.
+All rights not expressly granted are reserved. Retain notices present in
+copies you are permitted to make.
+
+6. DISCLAIMER
+
+THE COVERED SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTIES OF ANY KIND,
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW. THE COPYRIGHT OWNER IS
+NOT LIABLE FOR DAMAGES ARISING FROM ITS USE TO THE MAXIMUM EXTENT PERMITTED
+BY APPLICABLE LAW.
+
+7. IMPORTANT NOTE
+
+This is a custom source-available license, NOT an OSI-approved open-source
+license. Its enforceability and scope depend on applicable law. Nothing in
+these terms limits rights that cannot legally be restricted.
