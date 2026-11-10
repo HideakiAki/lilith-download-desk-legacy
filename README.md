@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Lilith_Download_Desk_Animated_Concept.gif" alt="Lilith Download Desk Legacy Banner" width="100%">
+  <img src="./Lilith Neon Blink Animation Grid.gif" alt="Lilith Download Desk Legacy Banner" width="100%">
 </p>
 
 <h1 align="center">Lilith Download Desk Legacy</h1>
