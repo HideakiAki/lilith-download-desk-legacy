@@ -1,21 +1,25 @@
-# Publish Lilith Legacy using the GitHub website only
+# Lilith Legacy: GitHub publishing and archive notes
 
-No desktop app or command line is required.
+**Current status:** Public historical source archive with a GitHub pre-release containing the six original ZIP packages.
 
-1. Sign in to https://github.com/new.
-2. Repository name: `lilith-download-desk-legacy`.
-3. Description: `Historical Python prototypes of Lilith Download Desk (v1.0–v1.3.2)`.
-4. Visibility: Public when you are ready to share it, or Private while you review.
-5. Leave **Add a README**, **Add .gitignore**, and **Choose a license** set to None/off. The upload already contains README and .gitignore. No source license has been chosen yet.
-6. Click **Create repository**.
-7. On the new empty repository page click **uploading an existing file**; or select **Add file > Upload files** if shown.
-8. Open this ZIP's extracted folder `UPLOAD_THE_CONTENTS_OF_THIS_FOLDER` on Windows.
-9. Select **everything inside** the folder with Ctrl+A (not the outer folder and not the original Git-ready ZIP), then drag those selected files and folders into the GitHub web upload page.
-10. Check that README.md, Lilith_Download_Desk.py, browser_extension/, and release-archives/ are in the upload list. GitHub can accept up to 100 files per upload and 25 MiB per file; this package is under those limits.
-11. Enter a commit message such as `Add historical Lilith Download Desk prototypes v1.0-v1.3.2`.
-12. Click **Commit changes** (or **Propose changes** if that is the label shown) and confirm repository root contents.
-13. When ready, share https://github.com/YOUR_USERNAME/lilith-download-desk-legacy.
+- Repository: https://github.com/HideakiAki/lilith-download-desk-legacy
+- Release: https://github.com/HideakiAki/lilith-download-desk-legacy/releases/tag/legacy-archive-v1.3.2
+- Release tag: `legacy-archive-v1.3.2`
+- License: Custom free-to-use license with restricted modification and redistribution; see [LICENSE](LICENSE) and [LICENSE_STATUS.md](LICENSE_STATUS.md).
 
-**Important**: Website-only upload creates a single initial commit, not historic version tags. All six historical ZIP files are included and clearly indexed in RELEASES.md. Version tags can be created later if desired. No binary release or professional security audit is claimed here.
+## How the archive was published
 
-**License status**: A public repository without a license is viewable, but it is not automatically licensed for reuse. Decide on an open-source license before advertising it as FOSS or inviting contributions.
+The legacy source and ZIPs were originally uploaded using GitHub's website. Subsequently, all six ZIPs were attached to one GitHub **pre-release**, and the download links in [README.md](README.md) and [RELEASES.md](RELEASES.md) were updated to refer directly to those Release assets.
+
+The duplicate ZIPs were then deleted from the tip of the `main` branch. **Deleting committed files does not erase them from Git history.** No history rewrite was attempted. The original version-specific histories were not recreated.
+
+## Future maintenance
+
+1. Keep ordinary source code, documentation, and small interface images in the repository.
+2. Attach new installable ZIPs or binaries to **GitHub Releases**, rather than committing them to `main`.
+3. Ensure the release is published and all assets are visible before changing any download links.
+4. After updating links, verify that every asset name and version is correct.
+5. Do not accidentally describe these legacy builds as stable or professionally security-audited.
+6. Keep license notices for third-party software and avoid committing local settings, cookies, pairing keys, or download histories.
+
+The separate planned Lilith Download Desk v2.0 rebuild is not part of this legacy archive.
