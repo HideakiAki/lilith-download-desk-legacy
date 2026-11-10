@@ -1,9 +1,22 @@
-# License Pending
+# License Status: Free Use, Restricted Modification and Redistribution
 
-The project owner has **not selected a license** for the original Lilith Download Desk code yet. Accordingly, this archive does not assign MIT, GPL, Apache, or another license without authorization.
+Lilith Download Desk Legacy uses a **custom source-available license**. See the complete terms in [LICENSE](LICENSE).
 
-If published as a public GitHub repository, the code will be publicly visible but **not automatically open-source under an OSI-approved license**. Others should not assume modification or redistribution rights.
+## Generally permitted without asking
 
-Before inviting public code contributions, choose a license (for example, MIT or GPL-3.0-or-later), check compatibility with third-party components and artwork, add the official license text, and update the README. Retain the licenses/notices for all dependencies and any media actually distributed.
+- View and inspect the original code.
+- Download, install, and run **unmodified** versions for free, including personal and internal business use.
+- Make necessary personal installation and backup copies.
+- Link to the official GitHub repository.
 
-Original artwork/assets should also have an explicit usage policy where needed. This is a licensing checklist, not legal advice.
+## Ask the owner for written permission first
+
+- Modify or publish adaptations of the original Lilith code or project assets.
+- Redistribute, mirror, bundle, or reupload original or modified Lilith copies.
+- Sell or sublicense Lilith, or distribute it as part of another product or service.
+
+GitHub's Terms of Service independently allow platform viewing and forking of public repositories, and applicable law may provide additional rights. This restriction cannot relicense third-party dependencies or assets owned by others: refer to [THIRD_PARTY.md](THIRD_PARTY.md).
+
+This is **not an OSI-approved open-source license**. It is intended to let people test the unmodified software without authorizing public modifications or redistribution.
+
+These terms are a custom legal document, not professional legal advice. The project owner should consult a qualified lawyer if enforceability or commercial use becomes important.
