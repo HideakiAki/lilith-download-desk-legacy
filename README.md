@@ -23,26 +23,26 @@
 
 **Lilith Download Desk** is an experimental Windows download manager built with Python, a desktop interface, and a Chrome/Edge-compatible browser extension. This repository preserves the original versions, **including their unfinished features and known bugs**. It is not presented as a polished replacement for Internet Download Manager.
 
-The **repository root contains the latest legacy source (v1.3.2)**. Earlier versions are preserved in the original ZIP packages below. Because the files were uploaded through GitHub's website, this archive does not reconstruct historical Git commits or version tags.
+The **repository root contains the latest legacy source (v1.3.2)**. All six original ZIP packages are downloadable as assets attached to the [legacy archive pre-release](https://github.com/HideakiAki/lilith-download-desk-legacy/releases/tag/legacy-archive-v1.3.2). The original version-by-version Git histories were not reconstructed; the archive tag identifies this single collection.
 
 ## Downloads
 
 | Version | Archived package | Historical milestone |
 | :--- | :--- | :--- |
-| **v1.0** | [Download ZIP](release-archives/Lilith_Download_Desk_v1.zip) | Initial Windows/Tkinter download queue |
-| **v1.1** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_1.zip) | Early browser extension and video quality controls |
-| **v1.2** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_2.zip) | System tray, floating video button, and separate progress window |
-| **v1.3** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_3.zip) | Direct-file transfer engine and opt-in browser interception |
-| **v1.3.1** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_3_1.zip) | Media merging, file actions, and interface fixes |
-| **v1.3.2** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip) | Automatic local FFmpeg preparation |
+| **v1.0** | [Download ZIP](https://github.com/HideakiAki/lilith-download-desk-legacy/releases/download/legacy-archive-v1.3.2/Lilith_Download_Desk_v1.zip) | Initial Windows/Tkinter download queue |
+| **v1.1** | [Download ZIP](https://github.com/HideakiAki/lilith-download-desk-legacy/releases/download/legacy-archive-v1.3.2/Lilith_Download_Desk_v1_1.zip) | Early browser extension and video quality controls |
+| **v1.2** | [Download ZIP](https://github.com/HideakiAki/lilith-download-desk-legacy/releases/download/legacy-archive-v1.3.2/Lilith_Download_Desk_v1_2.zip) | System tray, floating video button, and separate progress window |
+| **v1.3** | [Download ZIP](https://github.com/HideakiAki/lilith-download-desk-legacy/releases/download/legacy-archive-v1.3.2/Lilith_Download_Desk_v1_3.zip) | Direct-file transfer engine and opt-in browser interception |
+| **v1.3.1** | [Download ZIP](https://github.com/HideakiAki/lilith-download-desk-legacy/releases/download/legacy-archive-v1.3.2/Lilith_Download_Desk_v1_3_1.zip) | Media merging, file actions, and interface fixes |
+| **v1.3.2** | [Download ZIP](https://github.com/HideakiAki/lilith-download-desk-legacy/releases/download/legacy-archive-v1.3.2/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip) | Automatic local FFmpeg preparation |
 
-**Latest legacy package:** [Lilith Download Desk v1.3.2](release-archives/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip)
+**Latest legacy package:** [Lilith Download Desk v1.3.2](https://github.com/HideakiAki/lilith-download-desk-legacy/releases/download/legacy-archive-v1.3.2/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip)
 
-See [RELEASES.md](RELEASES.md) for the full version history. The six archived ZIPs have been preserved without modifying their original contents.
+See [RELEASES.md](RELEASES.md) for the full version history. The six archived ZIPs are hosted as **GitHub Release assets**, outside the current source tree. Earlier commits can still contain the original ZIPs.
 
 ## Getting started
 
-1. Download the [v1.3.2 ZIP](release-archives/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip) and extract it on **Windows**.
+1. Download the [v1.3.2 ZIP](https://github.com/HideakiAki/lilith-download-desk-legacy/releases/download/legacy-archive-v1.3.2/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip) and extract it on **Windows**.
 2. Read **`START_HERE_v1_3_2.txt`** inside the extracted folder.
 3. With **Python and Tkinter** available, run **`01_Install_and_Launch.bat`**. Initial setup requires an internet connection to install Python packages and prepare a local FFmpeg executable.
 4. For browser integration, read [the extension instructions](browser_extension/README_BROWSER_EXTENSION.txt) before loading the extension or granting its webpage permissions.
