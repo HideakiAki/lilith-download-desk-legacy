@@ -1,48 +1,82 @@
 <p align="center">
-  <img src="./Lilith Neon Blink Animation Grid.gif" alt="Lilith Download Desk Legacy Banner" width="100%">
+  <img src="./Lilith Neon Blink Animation Grid.gif" alt="Animated Lilith Download Desk Legacy banner" width="100%">
 </p>
 
 <h1 align="center">Lilith Download Desk Legacy</h1>
 
 <p align="center">
-  Historical archive of Lilith Download Desk prototypes, from v1.0 to v1.3.2.
+  An archive of the original AI-assisted Windows downloader prototypes.<br>
+  <strong>v1.0 through v1.3.2</strong> · Python desktop app · Chrome/Edge browser extension
 </p>
-> **Historical archive, not the upcoming v2.0 project.**
 
-Lilith Download Desk is an experimental, AI-assisted Windows downloader with a Python desktop application and a Chrome/Edge-compatible browser extension. This repository preserves the original prototype releases **v1.0 through v1.3.2**, including their rough edges. The software is not presented as a polished IDM replacement.
+<p align="center">
+  <a href="#downloads">Downloads</a> ·
+  <a href="#getting-started">Getting started</a> ·
+  <a href="#known-limitations">Known limitations</a> ·
+  <a href="#license-and-permissions">License</a>
+</p>
 
-## What is here?
+> [!IMPORTANT]
+> **Historical prototype archive, not a stable release.** The final legacy snapshot is **v1.3.2**. The upcoming **v2.0** is a separate project and is **not** included here.
 
-- **Repository root**: source for the latest legacy snapshot, **v1.3.2**, plus repository documentation.
-- **Previous versions**: six original ZIP packages in `release-archives/`. A website-only upload does not reproduce Git history or create version tags.
-- **`release-archives/`**: the six original ZIP release packages, preserved **unchanged** for convenient download and inspection.
-- **`RELEASES.md`**: release index and brief version history.
-- **`KNOWN_ISSUES.md`**: important limitations, including the undismissible floating browser video button.
-- **`PUBLISH_TO_GITHUB.md`**: simple website-only publishing instructions.
+## Overview
 
-## Status and warnings
+**Lilith Download Desk** is an experimental Windows download manager built with Python, a desktop interface, and a Chrome/Edge-compatible browser extension. This repository preserves the original versions, **including their unfinished features and known bugs**. It is not presented as a polished replacement for Internet Download Manager.
 
-This is **prototype code**. Do not assume it has been professionally security audited or tested on every website. Test with non-sensitive downloads first. The latest version still has a browser-overlay bug: the floating **Download with Lilith** button can overlap website navigation or login/signup controls and has no built-in dismiss/minimize/drag setting. This issue remains **unfixed in this archive**.
+The **repository root contains the latest legacy source (v1.3.2)**. Earlier versions are preserved in the original ZIP packages below. Because the files were uploaded through GitHub's website, this archive does not reconstruct historical Git commits or version tags.
 
-The old extension also requests broad webpage access for its floating video button. Review permissions before loading it. Downloads requiring browser-only authentication, cookies, DRM, or short-lived links may not work. The built-in direct HTTP engine in later legacy versions is **single-connection**, not full IDM-style accelerated downloading.
+## Downloads
 
-For details, see [Known Issues](KNOWN_ISSUES.md) and [Security & Privacy](SECURITY.md).
+| Version | Archived package | Historical milestone |
+| :--- | :--- | :--- |
+| **v1.0** | [Download ZIP](release-archives/Lilith_Download_Desk_v1.zip) | Initial Windows/Tkinter download queue |
+| **v1.1** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_1.zip) | Early browser extension and video quality controls |
+| **v1.2** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_2.zip) | System tray, floating video button, and separate progress window |
+| **v1.3** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_3.zip) | Direct-file transfer engine and opt-in browser interception |
+| **v1.3.1** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_3_1.zip) | Media merging, file actions, and interface fixes |
+| **v1.3.2** | [Download ZIP](release-archives/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip) | Automatic local FFmpeg preparation |
 
-## Quick start: latest old version
+**Latest legacy package:** [Lilith Download Desk v1.3.2](release-archives/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip)
 
-1. Obtain `release-archives/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip`.
-2. Extract it; read `START_HERE_v1_3_2.txt` from inside the release.
-3. Use `01_Install_and_Launch.bat` on Windows with Python and Tkinter available. Initial setup downloads Python dependencies and prepares a private FFmpeg executable; internet access is required.
-4. If testing browser integration, read `browser_extension/README_BROWSER_EXTENSION.txt` and grant permissions only if you accept the risks.
+See [RELEASES.md](RELEASES.md) for the full version history. The six archived ZIPs have been preserved without modifying their original contents.
 
-For the original instructions for each historical version, extract that version's ZIP. The ZIPs are preserved as delivered; the source itself has not been repaired or modernized for this archival repository.
+## Getting started
 
-## Third-party tools and project origin
+1. Download the [v1.3.2 ZIP](release-archives/Lilith_Download_Desk_v1_3_2_No_Manual_FFmpeg.zip) and extract it on **Windows**.
+2. Read **`START_HERE_v1_3_2.txt`** inside the extracted folder.
+3. With **Python and Tkinter** available, run **`01_Install_and_Launch.bat`**. Initial setup requires an internet connection to install Python packages and prepare a local FFmpeg executable.
+4. For browser integration, read [the extension instructions](browser_extension/README_BROWSER_EXTENSION.txt) before loading the extension or granting its webpage permissions.
 
-This project was developed with AI assistance under the project owner's direction. It is not a fork of Internet Download Manager or Mister Download Manager, and neither project's proprietary or project-specific source code is included. It uses standard Python modules and third-party packages listed in [Third-Party Dependencies](THIRD_PARTY.md). Those dependencies have their own terms.
+Older versions have their own setup instructions inside their corresponding ZIPs. No Windows/browser integration regression test has been performed for this archival publication.
 
-**Free to use, restricted modification and redistribution.** You may download, install, and run unmodified copies of Lilith for free. Modifying or redistributing the covered code requires prior written permission from the owner, subject to GitHub's platform rights and applicable law. This is **source-available, not an OSI-approved open-source project**. Read the [LICENSE](LICENSE) and [license explanation](LICENSE_STATUS.md). Third-party components retain their own licenses.
+## Known limitations
 
-## Feedback
+> [!WARNING]
+> **The final browser overlay bug remains unfixed.** The floating **Download with Lilith** control may cover website navigation or login/signup buttons. It has no built-in close, minimize, or drag control.
 
-If you are evaluating this archive to help with a future rebuild, please share reproducible bug reports, security findings, user-experience suggestions, and dependency/license observations. The **new v2.0 frontend/backend is a separate, future effort** and is not included here.
+Other limitations include:
+
+- **Broad browser access:** the old extension runs on ordinary HTTP(S) pages, including frames. Review its permissions before using it on sensitive sites.
+- **Site compatibility:** browser-authenticated downloads, expiring URLs, cookies, non-GET requests, and some media formats may not work.
+- **Transfer performance:** the later direct HTTP engine uses **one connection**, not IDM-style multi-connection acceleration.
+- **Unfinished workflows:** image capture, category-specific folders, download confirmation, some shortcuts, and media postprocessing are not consistently implemented.
+
+For fuller details, read [KNOWN_ISSUES.md](KNOWN_ISSUES.md) and [SECURITY.md](SECURITY.md). Test only with non-sensitive downloads from trusted sources.
+
+## License and permissions
+
+**Free to use, but modification and redistribution are restricted.**
+
+You may **view the code** and **download, install, and run unmodified copies for free**. Modifying or redistributing the covered Lilith code or original project assets requires the owner's **prior written permission**, subject to GitHub's platform rights and applicable law.
+
+This is **source-available software, not OSI-approved open source**. Third-party libraries and tools retain their own licenses.
+
+Read the full [LICENSE](LICENSE), [license explanation](LICENSE_STATUS.md), and [third-party dependency notes](THIRD_PARTY.md) before reusing any material.
+
+## Project background and feedback
+
+Lilith Download Desk was developed with **AI assistance under the project owner's direction**. It is not a fork of Internet Download Manager or Mister Download Manager; neither project's source code is intentionally included.
+
+This archive exists so testers can inspect the earlier work and share reproducible bug reports, security observations, and suggestions. Please **do not post credentials, private URLs, or pairing keys** in public issues.
+
+The planned **Lilith Download Desk v2.0** frontend and backend are separate future work, not features delivered by these legacy releases.
